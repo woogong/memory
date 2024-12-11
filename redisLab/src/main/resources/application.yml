@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: redisLab
+
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    timeout: 2000
