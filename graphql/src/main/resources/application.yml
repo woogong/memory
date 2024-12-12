@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: graphql
+
+  graphql:
+    graphiql:
+      enabled: true
+    schema:
+      printer:
+        enabled: true
