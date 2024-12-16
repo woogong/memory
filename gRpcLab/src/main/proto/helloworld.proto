@@ -1,0 +1,18 @@
+// Example gRPC service definition (proto file):
+// src/main/proto/helloworld.proto
+syntax = "proto3";
+
+option java_package = "com.gmdsoft.jbjeong.gRpcLab";
+option java_outer_classname = "HelloWorldProto";
+
+service Greeter {
+    rpc SayHello (HelloRequest) returns (HelloReply);
+}
+
+message HelloRequest {
+    string name = 1;
+}
+
+message HelloReply {
+    string message = 1;
+}
